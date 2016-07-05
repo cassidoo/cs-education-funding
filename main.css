@@ -2,8 +2,6 @@ body {
   background-color: #1D2129;
   color: #FFF;
   font-family: 'Lato', sans-serif;
-  margin-left: 300px;
-  margin-right: 300px;
 }
 
 h1 {
@@ -44,20 +42,36 @@ th, td {
   padding: 10px;
 }
 
-.red {
-  color: #FD6C6C;
+::selection {
+  background-color: #323F50;
+  color: #0097D8;
+}
+::-moz-selection {
+  background-color: #323F50;
+  color: #0097D8;
 }
 
-.yellow {
-  color: #FCCE53;
+.container {
+  margin-left: 350px;
+  margin-right: 350px;
+}
+
+.center {
+  text-align: center;
+}
+
+.red {
+  background-color: #FF3D56;
+  font-weight: 400;
+  padding: 0 5px;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.5);
 }
 
 .green {
-  color: #0BAC45;
-}
-
-.blue {
-  color: #0097D8;
+  background-color: #0BAC45;
+  font-weight: 400;
+  padding: 0 5px;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.5);
 }
 
 .github-corner:hover .octo-arm {
