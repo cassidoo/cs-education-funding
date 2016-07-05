@@ -28,6 +28,8 @@ a {
 table {
   background-color: #323F50;
   color: #AAB4BE;
+  display: block;
+  overflow: scroll;
   text-align: center;
   width: 100%;
 }
@@ -52,8 +54,8 @@ th, td {
 }
 
 .container {
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .center {
@@ -93,20 +95,25 @@ th, td {
   }
 }
 
-@media (min-width: 800px) {
+@media only screen and (max-width: 800px) {
+  h1 {
+    font-size: 4em;
+  }
+
+  p {
+    font-weight: 400;
+  }
+
   .container {
     margin-left: 20px;
     margin-right: 20px;
   }
-  h1 {
-    font-size: 4em;
-  }
 }
 
-@media (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
   .container {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 25%;
+    margin-right: 25%;
   }
 }
 
